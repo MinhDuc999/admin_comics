@@ -15,7 +15,7 @@ async function bootstrap() {
     origin: function (origin, callback) {
       if (!origin) return callback(null, true);
 
-      const allowedOrigins = ['http://localhost:5173', /\.ngrok-free\.app$/];
+      const allowedOrigins = ['http://localhost:3001', /\.ngrok-free\.app$/];
 
       const allowed = allowedOrigins.some((allowedOrigin) => {
         if (typeof allowedOrigin === 'string') {
