@@ -17,7 +17,7 @@ export class AuthController {
 
   @Get('test')
   test() {
-    return { message: 'Auth controller is working' };
+    return { message: 'Hiiiiiiiiiiiiiiiiiii' };
   }
 
   @Post('google-token')

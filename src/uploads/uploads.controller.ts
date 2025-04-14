@@ -34,7 +34,7 @@ export class UploadsController {
         callback(null, true);
       },
       limits: {
-        fileSize: 1024 * 1024 * 5, // giới hạn 5MB
+        fileSize: 1024 * 1024 * 5,
       },
     }),
   )
